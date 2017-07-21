@@ -13,6 +13,7 @@ class PagesController extends Controller
 
     public function index()
     {
+
         $resumeFile = \Storage::files('docs/resume');
         if (isset($resumeFile[0])) {
             $resumeFile = $resumeFile[0];
@@ -86,7 +87,7 @@ class PagesController extends Controller
         \Mail::send(['html' => 'emails.contact'], ['data' => $data], function ($message) {
             $message->from('webmaster@evgeniy.poznyaks.com', 'WebMaster');
             $message->subject('Message from evgeniy.poznyaks.com');
-            $message->to('ek35mm@gmail.com', 'Evgeniy');
+            $message->to(env("MAIL_RECEIVER"), 'Evgeniy');
         });
 
 
