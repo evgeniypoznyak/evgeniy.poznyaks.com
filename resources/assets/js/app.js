@@ -23,7 +23,14 @@ const app = new Vue({
 });
 */
 
-//require('./googleAnalytics');
+
+// window.onload = function () {
+//     let body = document.queryselector('body');
+//     body.style.opacity = 1;
+// }
+
+
+require('./googleAnalytics');
 
 require('./my-custom-scripts');
 

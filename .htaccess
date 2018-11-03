@@ -4,4 +4,23 @@
    RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
    RewriteRule ^(.*)$ public/$1 [L]
 
-</IfModule>
+#</IfModule>
+#<IfModule mod_expires.c>
+#  ExpiresActive On
+#  ExpiresDefault A2592000
+#</IfModule>
+
+
+#<IfModule mod_expires>
+#<FilesMatch "\.(|jpg|png|ico|gif|x-icon)$">
+#  ExpiresActive On
+#  ExpiresDefault A2592000
+#</FilesMatch>
+#</IfModule>
+
+#<IfModule mod_expires.c>
+#   <FilesMatch "\.(|jpg|png|ico|gif|x-icon)$">
+#     ExpiresActive On
+#     ExpiresDefault A2592000
+#   </FilesMatch>
+#</IfModule>

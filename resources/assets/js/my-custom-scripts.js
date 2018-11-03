@@ -48,3 +48,9 @@ $("#carousel-example-generic").carousel();
 // hiding jquery-mobile extra body
 //$('body').first().hide();
 
+
+// Hide body
+window.onload = function () {
+    let body = document.querySelector('body');
+    body.style.opacity = 1;
+}

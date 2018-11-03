@@ -26,12 +26,12 @@
                          alt="">
                 </a>
                 <a class="social-icon hvr-buzz"
-                   target="_blank" href="https://www.linkedin.com/in/evgeniy-poznyak-6423b218/">
+                   target="_blank" href="https://www.linkedin.com/in/evgeniypoznyak/">
                     <img id="lindkin-icon" data-original-title="Linkedin"
                          src="{{url('/img/social_lindkin.png')}}"
                          height="50px" title="linkedin" alt=""></a>
 
-                <a class="sotial-icon" href="@isset($resumeFile) {{$resumeFile}} @endisset"><img src="" alt="">
+                <a class="social-icon" href="@isset($resumeFile) {{$resumeFile}} @endisset"><img src="" alt="">
                     <button id="resume-icon" data-original-title="Download My Resume"
                             class="btn btn-warning hvr-buzz">RESUME
                     </button>
@@ -62,7 +62,7 @@
         </div>
         <div class="col-lg-4 col-md-4 col-sm-4 hero-text" align="center">
             <div id="text-title-hero">Evgeniy Poznyak</div>
-            <div  id="text-subtitle-hero">Web Developer</div>
+            <div  id="text-subtitle-hero">Software Engineer</div>
         </div>
 
         <div class="col-lg-4 col-md-4 col-sm-4 hero-image" align="center">
