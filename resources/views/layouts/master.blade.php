@@ -54,7 +54,7 @@
 <!-- Scripts -->
 <div id="app"></div>
 <script>
-    let body = document.querySelector('body');
+    var body = document.querySelector('body');
     body.style.opacity = 0;
 </script>
 <script async src="{{ mix('js/app.js') }}"></script>
