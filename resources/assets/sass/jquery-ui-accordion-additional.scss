@@ -1,0 +1,35 @@
+/*-----------------------
+ Accordion
+ -----------------------*/
+
+.ui-widget {
+  border: none;
+  font-weight: normal;
+  color: #ffffff;
+  padding-left: 0px;
+  padding-right: 0px;
+  font-size: 25px;
+}
+
+.my-accordion-content {
+  padding-top: 50px !important;
+  padding-left: 16px !important;
+  padding-right: 16px !important;
+  border: none !important;
+}
+
+.project-image {
+  margin: auto;
+  padding: 20px;
+}
+
+.ui-widget-overlay {
+  background: rgb(0, 0, 0) !important;
+  opacity: .3 !important;
+  filter: Alpha(Opacity=30) !important;
+}
+
+#contact-icon.ui-widget {
+  font-size: 14px;
+  padding: 8px;
+}

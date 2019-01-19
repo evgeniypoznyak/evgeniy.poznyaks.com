@@ -1,0 +1,30 @@
+/*-----------------------
+ Back To Top Button
+ -----------------------*/
+
+.back-to-top, .back-to-top:visited, .back-to-top:focus {
+  font-size: 21px;
+  padding: 5px;
+  width: 100px;
+  height: 80px;
+  padding: 10px;
+  text-align: center;
+  font-weight: bold;
+  color: #444;
+  text-decoration: none;
+  position: fixed;
+  top: 80%;
+  right: 15px;
+  z-index: 5000;
+  display: none;
+  border: 1px solid #e69700;
+  background: url("./css/images/ui-bg_diagonals-thick_20_e69700_40x40.png") 50% 50% #e69700;
+  font-weight: 700;
+  color: #fff;
+}
+
+.back-to-top:hover {
+  border: none;
+  background: url("./css/images/ui-bg_diagonals-small_40_db4865_40x40.png") 50% 50% #e69700;
+
+}

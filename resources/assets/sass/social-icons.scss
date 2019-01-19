@@ -1,0 +1,28 @@
+/*-----------------------
+  Social Icons
+ -----------------------*/
+
+.hero-social {
+  padding-top: 5%;
+
+}
+
+#social-buttons {
+  z-index: 1000;
+}
+
+.social-icon {
+  text-decoration: none !important;
+
+}
+
+#wordpress-icon, #github-icon, #lindkin-icon, #resume-icon, #contact-icon {
+  margin-top: -350px;
+  overflow: hidden;
+}
+
+#contact-icon, #resume-icon {
+  text-align: center;
+  font-size: 14px;
+  z-index: 10000;
+}

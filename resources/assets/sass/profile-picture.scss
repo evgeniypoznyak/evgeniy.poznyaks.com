@@ -1,0 +1,37 @@
+/*-----------------------
+ Profile Picture
+ -----------------------*/
+#profile-pic {
+  max-height: 300px;
+  color: white;
+  display: none;
+  padding-right: 10%;
+  padding-top: 10px;
+}
+
+.hero-image {
+  position: absolute;
+  bottom: 0;
+  left: 83%;
+  transform: translateX(-50%);
+  padding-right: 0px;
+  text-align: right;
+}
+
+/*-----------------------
+ Profile Hero Text
+ -----------------------*/
+#text-title-hero {
+  color: white;
+  font-size: 0px;
+}
+
+#text-subtitle-hero {
+  color: white;
+  font-size: 0px;
+}
+
+.hero-text {
+  padding-top: 5%;
+  z-index: 1000;
+}

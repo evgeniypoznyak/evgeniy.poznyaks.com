@@ -1,19 +1,24 @@
 <!-- Technipagesills Panel -->
+<style type="text/css">
+
+
+</style>
 
 
 <div class="row accordion my-row" id="technical-skills">
 
-        <div class="ui-accordion-header jumbotron" id="skillsIndex">My Skills</div>
+    <div class="ui-accordion-header jumbotron" id="skillsIndex">My Skills</div>
 
-<div class="ui-accordion-content" style="padding: 40px">
+    <div class="ui-accordion-content">
+        <div class="skillsWrapper">
 
-    @foreach($skills as $skill)
+            @foreach($skills as $skill)
+                @include('pages.skills.skill')
+            @endforeach
 
-        @include('pages.skills.skill')
+        </div>
 
-    @endforeach
-
-</div>
+    </div>
 
 
 </div>

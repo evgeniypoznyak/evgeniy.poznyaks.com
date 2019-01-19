@@ -1,0 +1,33 @@
+/*-----------------------
+ Headers Sections
+ -----------------------*/
+
+.my-row {
+  margin-right: 0px;
+}
+
+my-row-not-top {
+  margin-right: 0px !important;
+  margin-left: 0px !important;
+}
+
+.page-header {
+  font-size: 45px;
+}
+
+#professionalIndex, #personalIndex, #skillsIndex {
+  font-size: 50px;
+  text-align: center;
+  color: #f9fbff;
+}
+
+.my-well {
+  background-color: #2ab27b;
+  color: white;
+  width: 100%;
+}
+
+.panel-primary > .panel-heading {
+  background-color: #1484e6;
+  text-align: center;
+}

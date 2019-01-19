@@ -1,0 +1,15 @@
+/*-----------------------
+ Hero Background
+ -----------------------*/
+
+.hero-container {
+  height: 300px;
+  width: 100%;
+
+  background: #2767a9;
+  background: -moz-linear-gradient(top, #2767a9 0%, #98b8d8 52%, #2767a9 100%);
+  background: -webkit-linear-gradient(top, #2767a9 0%, #98b8d8 52%, #2767a9 100%);
+  background: linear-gradient(to bottom, #2767a9 0%, #98b8d8 52%, #2767a9 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#4096ee', endColorstr='#4096ee', GradientType=0);
+  position: relative;
+}

@@ -1,0 +1,34 @@
+/*-----------------------
+    Modal Form
+ -----------------------*/
+
+.modal-body {
+  background-color: #f3f3f3;
+}
+
+.modal-header {
+  background-color: #f3f3f3;
+}
+
+#contactModalBody {
+  margin: auto;
+}
+
+#ajax-successes {
+  display: none;
+  text-align: center;
+  padding-bottom: 100px;
+  padding-top: 50px;
+  font-size: 48px;
+  font-family: -webkit-body, serif;
+}
+
+#ajax-process {
+
+}
+
+.ajax-process-container {
+  display: none;
+  text-align: center;
+  padding: 50px;
+}

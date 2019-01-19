@@ -1,0 +1,68 @@
+/*-----------------------
+ My Skills
+ -----------------------*/
+
+.skillsWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 100%;
+
+  .skillItemContent {
+    -webkit-box-shadow: 2px 17px 54px -7px rgba(0, 0, 0, 0.58);
+    -moz-box-shadow: 2px 17px 54px -7px rgba(0, 0, 0, 0.58);
+    box-shadow: 2px 17px 54px -7px rgba(0, 0, 0, 0.58);
+    border-radius: 10px;
+    width: 300px;
+    margin: 2rem 1rem;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    background-color: #ececec;
+
+    .imageSection {
+      height: 100px;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+
+      .cardImageWrapper {
+        width: 100px;
+
+        .cardImage {
+          height: 100%;
+        }
+
+      }
+
+    }
+
+
+    .divider {
+      height: 1px;
+      width: 85%;
+      background-color: #adadad99;
+      align-self: center;
+      margin: 11px 0;
+    }
+
+    .bodySection {
+      .h4 {
+
+      }
+
+      .contentDescription {
+
+      }
+
+    }
+  }
+
+
+}
+
+
+
+.my-skill-column {
+  font-size: 16px;
+}
